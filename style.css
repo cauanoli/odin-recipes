@@ -8,11 +8,23 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-size: 28px;
+}
+
 ul {
   list-style: none;
 }
 
-li a {
+a {
   color: #1890ff;
+}
+
+li a {
   font-size: 22px;
+}
+
+img {
+  height: auto;
+  width: 400;
 }
