@@ -1,15 +1,22 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: #fafafa;
-  color: #000;
-}
-
-h1 {
-  font-size: 42px;
-  text-align: center;
-}
-
-h2 {
-  font-size: 28px;
+  background-color: #0c0908;
+  color: #fff;
 }
 
 ul {
@@ -17,14 +24,90 @@ ul {
 }
 
 a {
-  color: #1890ff;
+  color: #bce972;
 }
 
-li a {
+.text-highlight {
+  color: #bce972;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+header {
+  background-color: #000;
+  height: 80px;
+  padding: 20px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header .logo {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+section.hero {
+  height: calc(100vh - 80px);
+  background: url("./images/hero-image.png");
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.8);
+  padding: 80px 0;
   font-size: 22px;
 }
 
-img {
-  height: auto;
-  width: 400;
+section.hero p {
+  margin-top: 24px;
+  width: 70%;
+}
+
+section.hero h1 {
+  font-size: 8rem;
+  text-align: left;
+  width: 70%;
+}
+
+section h2 {
+  font-size: 60px;
+  text-align: center;
+}
+
+section#recipes {
+  margin-top: 80px;
+  height: calc(100vh - 200px);
+}
+
+section#recipes .recipe-list {
+  margin-top: 80px;
+}
+
+section#recipes .recipe-list li {
+  display: inline-block;
+}
+
+section#recipes .recipe-list li img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-left: 32px;
+}
+
+section#recipes .recipe-list li img:hover {
+  border: 2px #bce972 solid;
+  filter: brightness(0.8);
+}
+
+footer {
+  margin-top: 80px;
+  background-color: #000;
+  padding: 24px;
+  font-size: 24px;
+  text-align: center;
 }

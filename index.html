@@ -11,51 +11,72 @@
   </head>
   <body>
     <header class="website-header">
-      <a href="#">Simple recipes</a>
-      <a href="#recipes">Recipes</a>
+      <div class="container">
+        <nav>
+          <ul>
+            <li>
+              <a href="#" class="logo">Simple recipes</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
-      <section>
-        <h1>
-          <span class="text-highlight">Simple</span> and
-          <span>Fast</span> Recipes
-        </h1>
-        <p>
-          Ready for yummy adventures? Explore quick and easy recipes on
-          our site! Cook up deliciousness without the fuss. Whether
-          you're busy or just chillin', our simple recipes bring big
-          flavors, making kitchen time an awesome adventure—because good
-          food should be easy-peasy!
-        </p>
+      <section class="hero">
+        <div class="container">
+          <h1>
+            <span class="text-highlight">Simple</span> and
+            <span class="text-highlight">Fast</span> Recipes
+          </h1>
+          <p>
+            Ready for yummy adventures? Explore quick and easy recipes
+            on our site! Cook up deliciousness without the fuss. Whether
+            you're busy or just chillin', our simple recipes bring big
+            flavors, making kitchen time an awesome adventure—because
+            good food should be easy-peasy!
+          </p>
+          <div>
+            <a href="#recipes">See our recipes</a>
+          </div>
+        </div>
       </section>
       <section id="recipes">
-        <h2>Recipes</h2>
-        <ul>
-          <li>
-            <a href="./recipes/banana-smoothie.html">
-              <img
-                src="./images/banana-smoothie.jpg"
-                alt="A refreshing smoothie with ripe bananas and juicy kiwi, served in a glass."
-              />
-            </a>
-          </li>
-          <li>
-            <a href="./recipes/scrambled-eggs.html"
-              ><img
-                src="./images/scrambled-eggs.jpg"
-                alt="Scrambled eggs with parsley on a black plate. A delicious breakfast dish with fluffy eggs and a touch of green freshness."
-            /></a>
-          </li>
-          <li>
-            <a href="./recipes/egg-drop-soup.html">
-              <img
-                src="./images/egg-drop-soup.jpg"
-                alt="Ready for yummy adventures? Explore quick and easy recipes on our site! Cook up deliciousness without the fuss. Whether you're busy or just chillin', our simple recipes bring big flavors, making kitchen time an awesome adventure—because good food should be easy-peasy!"
-              />
-            </a>
-          </li>
-        </ul>
+        <div class="container">
+          <h2>Recipes</h2>
+          <ul class="recipe-list">
+            <li>
+              <a href="./recipes/banana-smoothie.html">
+                <img
+                  src="./images/banana-smoothie.jpg"
+                  alt="A refreshing smoothie with ripe bananas and juicy kiwi, served in a glass."
+                />
+              </a>
+            </li>
+            <li>
+              <a href="./recipes/scrambled-eggs.html"
+                ><img
+                  src="./images/scrambled-eggs.jpg"
+                  alt="Scrambled eggs with parsley on a black plate. A delicious breakfast dish with fluffy eggs and a touch of green freshness."
+              /></a>
+            </li>
+            <li>
+              <a href="./recipes/egg-drop-soup.html">
+                <img
+                  src="./images/egg-drop-soup.jpg"
+                  alt="Ready for yummy adventures? Explore quick and easy recipes on our site! Cook up deliciousness without the fuss. Whether you're busy or just chillin', our simple recipes bring big flavors, making kitchen time an awesome adventure—because good food should be easy-peasy!"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
+
+    <footer>
+      <p>
+        Website made by
+        <a href="https://github.com/cauanoli">@CauanOli</a>
+      </p>
+    </footer>
   </body>
 </html>
