@@ -27,6 +27,10 @@ a {
   color: #bce972;
 }
 
+img {
+  height: auto;
+}
+
 .text-highlight {
   color: #bce972;
 }
@@ -75,12 +79,15 @@ section.hero h1 {
 
 section h2 {
   font-size: 60px;
-  text-align: center;
 }
 
 section#recipes {
   margin-top: 80px;
   height: calc(100vh - 200px);
+}
+
+section#recipes h2 {
+  text-align: center;
 }
 
 section#recipes .recipe-list {
