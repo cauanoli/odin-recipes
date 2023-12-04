@@ -58,7 +58,7 @@ header .logo {
 }
 
 section.hero {
-  height: calc(100vh - 80px);
+  min-height: calc(100vh - 80px);
   background: url("./images/hero-image.png");
   background-size: cover;
   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.8);
@@ -72,7 +72,7 @@ section.hero p {
 }
 
 section.hero h1 {
-  font-size: 8rem;
+  font-size: 6rem;
   text-align: left;
   width: 70%;
 }
@@ -83,7 +83,7 @@ section h2 {
 
 section#recipes {
   margin-top: 80px;
-  height: calc(100vh - 200px);
+  min-height: calc(100vh - 200px);
 }
 
 section#recipes h2 {
