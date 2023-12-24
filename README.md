@@ -4,6 +4,8 @@ First project of The Odin Project course.
 
 OBS: This project is updated in the course of the course.
 
+[Live preview](https://cauanoli.github.io/odin-recipes/)
+
 # Skills
 
 - Use of basic HTML elements: images, anchor, headings, etc.
